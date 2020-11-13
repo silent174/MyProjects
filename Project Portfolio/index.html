@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Titles -->
+    <title>Developer's personal page</title>
+    <meta name="keywords" content="Ключевые слова...">
+    <meta name="description" content="Описание страницы...">
+
+    <!-- Syles -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+
+    <!-- FavIcons -->
+    <link rel="shortcut icon" href="img/favicons/favicon-48x48.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts/droidsans/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="fonts/noto-webfont/noto.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="header" id="header">
+        <div class="header_inner">
+            <!-- navigation -->
+            <nav class="navigation">
+                <div class="navigation__button navigation__button--fixed">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <ul class="navigation__list">
+                    <li><a href="#resume">Резюме</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- navigation -->
+            <!-- Фото -->
+            <div class="header__centered-content">
+                <div class="user-photo user-photo--shadow">
+                    <img src=".//img/placeholders/photo-small.jpg" alt="Аватар">
+                </div>
+                <!-- // Фото -->
+        <!--         <h1 class="header__title">Алексеев Кирилл</h1> -->
+                <h2 class="header__subtitle">Веб разработчик</h2>
+            </div>
+
+            <a href="#resume" class="mouse_scroll">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div>
+                    <span class="m_scroll_arrows unu"></span>
+                    <span class="m_scroll_arrows doi"></span>
+                    <span class="m_scroll_arrows trei"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- // header -->
+
+    <!-- Резюме -->
+    <div class="section section--bottom-line section--bg-laptop" id="resume">
+        <div class="container">
+            <div class="row">
+                <!-- Строка -->
+
+                <!-- ФОТО-->
+                <div class="hidden-xs col-sm-2 col-lg-3">
+                    <div class="user-photo user-photo--big">
+                        <img src=".//img/placeholders/photo-small.jpg" alt="Аватар">
+                    </div>
+                </div>
+                <!-- // ФОТО  -->
+
+                <!-- // Данные пользователя   -->
+                <div class="col-sm-10 col-lg-9">
+                    <div class="heading"> Резюме </div>
+                    <p><strong>Кирилл</strong>
+                        <br>
+                        Челябинска, Россия.
+                    </p>
+                    <p>
+                        Родился и вырос. Закончил три класса церковно-приходской IT школы. После чего «активно занимался самообразованием».
+                    </p>
+                    <!--  Вложенная строка-->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="heading heading--medium">
+                                Опыт работы
+                            </div>
+                            <ul class="definition-list">
+                                <li class="definition-list__item">
+                                    <div class="definition-list__df">
+                                        Декабрь - натоящее время
+                                    </div>
+                                    <div class="definition-list__desc">
+                                        <p> Верстальщик в веб-студии "Воображение".</p>
+                                    </div>
+                                </li>
+
+                                <li class="definition-list__item">
+                                    <div class="definition-list__df">
+                                        октябрь 2015 — Декабрь 2016
+                                    </div>
+                                    <div class="definition-list__desc">
+                                        <p> Фрилансер, веб-дизайнер..</p>
+                                    </div>
+                                </li>
+
+                                <li class="definition-list__item">
+                                    <div class="definition-list__df">
+                                        Сентбярь 2014 — Октябрь 2015
+                                    </div>
+                                    <div class="definition-list__desc">
+                                        <p> «ООО Кибер Софт» — Системный администратор.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="heading heading--medium">
+                                Образование
+                            </div>
+
+                            <ul class="definition-list">
+                                <li class="definition-list__item">
+                                    <div class="definition-list__df">
+                                        декабрь 2016
+                                    </div>
+                                    <div class="definition-list__desc">
+                                        <p>Курсы по верстке сайтов HTML5, CSS3 - WebCademy.ru.</p>
+                                    </div>
+                                </li>
+
+                                <li class="definition-list__item">
+                                    <div class="definition-list__df">
+                                        2008 — 2012
+                                    </div>
+                                    <div class="definition-list__desc">
+                                        <p> Московский Государственный университет дизайна и технологий, специальность дизайнер-технолог.</p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="button">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <a href="#">Скачать резюме</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // Резюме -->
+
+    <!-- Мои работы  -->
+    <div class="section section--bg-gear section--padding-smaller" id="portfolio">
+        <div class="container">
+            <div class="heading heading--center"> Мои работы</div>
+
+            <div class="filter-block">
+                <ul class="filter-block__block">
+                    <li class="filter-block__item">
+                        <span class="active filter-block__button-active filter" data-filter="all">Все</span>
+                    </li>
+
+                    <li class="filter-block__item">
+                        <span class="filter-block__button filter" data-filter=".html-css">HTML+CSS</span>
+                    </li>
+
+                    <li class="filter-block__item">
+                        <span class="filter-block__button filter" data-filter=".bootstrap">Bootstrap</span>
+                    </li>
+
+                    <li class="filter-block__item">
+                        <span class="filter-block__button filter" data-filter=".lesson">учебные</span>
+                    </li>
+
+                    <li class="filter-block__item">
+                        <span class="filter-block__button filter" data-filter=".order">на заказ</span>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="row" id="portfolio-projects">
+
+                <div class="col-sm-4 mix html-css lesson">
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-img">
+                            <a href=".//img/gallary/organic.png" class="fancy portfolio__item-img-hover" rel="group">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <br>
+                                <span>Смотреть макет</span>
+                            </a>
+                            <img src=".//img/project/organica.jpg" alt="Органика">
+
+                        </div>
+                        <div class="portfolio__item-title">
+                            <a href="#">Учебный макет Organica</a>
+                        </div>
+                        <div class="portfolio__item-desc">
+                            Верстка одностраничного сайта по PSD макету.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mix html-css">
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-img">
+                            <a href=".//img/gallary/apollo.png" class="fancy portfolio__item-img-hover" rel="group">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <br>
+                                <span>Смотреть макет</span>
+                            </a>
+                            <img src=".//img/project/apollo.jpg" alt="Apollo">
+
+                        </div>
+
+                        <div class="portfolio__item-title">
+                            <a href="#">Учебный макет Apollo</a>
+                        </div>
+
+                        <div class="portfolio__item-desc">
+                            Верстка лендинга хостинг компании. Мобильная адаптивность.
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mix bootstrap">
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-img">
+                            <a href=".//img/gallary/portfolio.png" class="fancy portfolio__item-img-hover" rel="group">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <br>
+                                <span>Смотреть макет</span>
+                            </a>
+                            <img src=".//img/project/portfolio.jpg" alt="Портфолио">
+
+                        </div>
+
+                        <div class="portfolio__item-title">
+                            <a href="#">Личный сайт портфолио</a>
+                        </div>
+
+                        <div class="portfolio__item-desc">
+                            Верстка личного сайта портфолио на котором вы сейчас находитесь.
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mix order html-css">
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-img">
+                            <a href=".//img/gallary/carconcept.png" class="fancy portfolio__item-img-hover" rel="group">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <br>
+                                <span>Смотреть макет</span>
+                            </a>
+                            <img src=".//img/project/auto.jpg" alt="Авто">
+
+                        </div>
+
+                        <div class="portfolio__item-title">
+                            <a href="#">Промо сайт автомобиля</a>
+                        </div>
+
+                        <div class="portfolio__item-desc">
+                            Верстка сайта для презентации концепта автомобиля.
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mix lesson">
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-img">
+                            <a href=".//img/gallary/rides.jpg" class="fancy portfolio__item-img-hover" rel="group">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <br>
+                                <span>Смотреть макет</span>
+                            </a>
+                            <img src=".//img/project/moto.jpg" alt="Органика">
+
+                        </div>
+
+                        <div class="portfolio__item-title">
+                            <a href="#">Магазин мотоциклов</a>
+                        </div>
+
+                        <div class="portfolio__item-desc">
+                            Верстка лендинга для компании Indian Motorcycles.
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mix bootstrap order">
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-img">
+                            <a href="img/gallary/full_pixels.jpg" class="fancy portfolio__item-img-hover" rel="group">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <br>
+                                <span>Смотреть макет</span>
+                            </a>
+                            <img src=".//img/project/music.jpg" alt="Аудио">
+
+                        </div>
+
+                        <div class="portfolio__item-title">
+                            <a href="#">Магазин аудиотехники</a>
+                        </div>
+
+                        <div class="portfolio__item-desc">
+                            Верстка страниц для магазина винтажной аудиотехники.
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--   // Мои работы  -->
+
+    <!-- footer -->
+
+    <div class="block-bg section section--bg-cloud">
+        <div class="container " id="contacts">
+            <div class="row">
+                <!-- Контакты -->
+                <div class="col-sm-6">
+                    <div class="footer__title">
+                        <h1 class="footer__heading heading-white">Контакты</h1>
+                        <p class="footer__desc">Если вы ищите специалиста по верстке сайтов в команду или для работы над проектом — я к вашим услугам.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="footer__title-contacts">
+                                <div class="footer__title-contacts-heading">
+                                    email
+                                </div>
+                                <p class="footer__title-contacts-desc">
+                                    <a href="#">alekseev_kirill_a@mail.ru</a>
+                                </p>
+                                <div class="footer__title-contacts-heading">
+                                    skype
+                                </div>
+                                <p class="footer__title-contacts-desc">
+                                    <a href="#">alekseev.kirill</a>
+                                </p>
+                            </div>
+
+
+
+
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="footer__title-contacts">
+
+                                <div class="footer__title-contacts-heading">телефон </div>
+                                <p class="footer__title-contacts-desc">
+                                    <a href="tel:+79507301502"  >+7(950)730-15-02</a>
+                                </p>
+                                <div class="footer__title-contacts-heading"> адрес
+                                </div>
+                                <p class="footer__title-contacts-desc">
+                                    <a href="#">Россия, г. Челябинск</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__title-contacts-heading footer__title-contacts-heading--padding-small"> социальные сети
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://vk.com/k_alexeev" class="fa fa-vk" target="_blank"></a>
+                        <a href="http://instagram.com/alekseev_krll" class="fa fa-instagram" target="_blank"></a>
+                        <a href="https://www.facebook.com/kirill.alekseev.520" class="fa fa-facebook" target="_blank"></a>
+                    </div>
+                </div>
+
+
+                <!-- Контакты -->
+                <!-- Форма -->
+                <div class="col-sm-6">
+                    <div class="heading heading--medium heading-white">Связаться со мной</div>
+
+                    <form class="contact-form" id="contact-form">
+                        <input type="text" name="name" placeholder="Имя" class="form__input">
+                        <input type="text" name="email" placeholder="Ваш email" class="form__input">
+
+                        <div class="clearfix">
+                            <input type="text" name="skype" placeholder="Skype" class="form__input form__input-half-width">
+
+                            <input type="text" name="phone" placeholder="Номер телефона" class="form__input form__input-half-width">
+                        </div>
+
+
+                        <div class="form__background-pencil">
+                            <textarea class="form__textarea" placeholder="Ваше сообщение" name="message">
+                    </textarea>
+                        </div>
+
+                        <input type="submit" value="Отправить" class="form__button-submit" form="contact-form">
+                    </form>
+
+                </div>
+                <!-- // Форма -->
+            </div>
+        </div>
+    </div>
+    <!-- // Контакты -->
+
+    <!-- Копирайт -->
+    <div class="copyright">
+        <div class="container">
+            <p class="copyrite_label"> © 2019 Алексеев Кирилл</p>
+            <p>Веб-разработик из Челябинска. занимаюсь версткой и созданием сайтов.</p>
+
+
+
+
+
+
+        </div>
+    </div>
+    <!-- Копирайт -->
+
+
+
+    <!-- // footer -->
+
+
+
+
+
+
+
+
+
+
+    <script src="libs/jquery/jquery-1.11.2.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/PageScroll2id.js"></script>
+    <script src="libs/mixitup2/jquery.mixitup.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="libs/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <scrtipt src="libs/jquery.validate/jquery.validate.js"></scrtipt>
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"> </script>
+
+</body>
+
+</html>

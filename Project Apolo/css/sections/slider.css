@@ -1,0 +1,40 @@
+.slider {
+  background-color: #254f83;
+  padding-top: 120px;
+  padding-bottom: 130px;
+  background-image: url('../img/slider-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: 0px 3px 25px 0px #688ab3;
+}
+.slider-title {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: -0.5px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+@media (min-width: 992px) {
+  .slider-title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.slider-slogan {
+  font-family: 'Noto Serif', serif;
+  color: #cddfe0;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .slider-slogan {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
