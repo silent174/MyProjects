@@ -1,0 +1,77 @@
+.header {
+  height: 768px;
+  position: relative;
+  background: linear-gradient(0deg, rgba(152, 195, 232, 0.2) 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+.header__top-logo {
+  background-image: url("..//img/logo.svg");
+  width: 48px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 83px;
+  margin-top: 40px;
+}
+.header__top-burger {
+  background-image: url("..//img/burger.svg");
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 83px;
+  margin-top: 48px;
+}
+.header__top-burger:hover,
+.header__top-burger :active,
+.header__top-burger :focus {
+  cursor: pointer;
+}
+.header__content {
+  float: left;
+}
+.header__title {
+  font-family: 'Galien';
+  color: #1F3F68;
+  width: 510px;
+  margin-top: 109px;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  margin-bottom: 32px;
+}
+.header__description {
+  width: 425px;
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+}
+.btn {
+  width: 220px;
+  height: 56px;
+  background-color: #5A98D0;
+  color: #fff;
+  padding: 15px 48px;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 10px;
+  margin-top: 75px;
+  letter-spacing: 0.04em;
+}
+.btn:hover,
+.btn :active,
+.btn :focus {
+  cursor: pointer;
+}
+.header__img {
+  position: absolute;
+  width: 686px;
+  height: 636px;
+  right: 25px;
+  top: 90px;
+}
